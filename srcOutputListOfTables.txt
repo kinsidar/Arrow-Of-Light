@@ -1,0 +1,3 @@
+[tbl818CubScoutAwards]      False
+[tblDenType]  False
+[tblParentsAndLeaders]      False

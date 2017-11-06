@@ -1,0 +1,90 @@
+Operation =1
+Option =0
+Where ="(((tbl818CubScoutAwards.Active)=True) AND ((tbl818CubScoutAwards.DenTypeID)=4)) "
+    "OR (((tbl818CubScoutAwards.Active)=True) AND ((tbl818CubScoutAwards.DenTypeID)=5"
+    "))"
+Begin InputTables
+    Name ="tbl818CubScoutAwards"
+End
+Begin OutputColumns
+    Expression ="tbl818CubScoutAwards.CubID"
+    Expression ="tbl818CubScoutAwards.Active"
+    Expression ="tbl818CubScoutAwards.DenYear"
+    Expression ="tbl818CubScoutAwards.DenNbr"
+    Expression ="tbl818CubScoutAwards.DenTypeID"
+    Expression ="tbl818CubScoutAwards.CubFirstName"
+    Expression ="tbl818CubScoutAwards.CubLastName"
+    Expression ="tbl818CubScoutAwards.Bobcat"
+    Expression ="tbl818CubScoutAwards.Wolf"
+    Expression ="tbl818CubScoutAwards.Bear"
+    Expression ="tbl818CubScoutAwards.WebelosBadge"
+    Expression ="tbl818CubScoutAwards.ArrowOfLight"
+    Expression ="tbl818CubScoutAwards.GoldWolfDate"
+    Expression ="tbl818CubScoutAwards.SilverWolfCount"
+    Expression ="tbl818CubScoutAwards.GoldBearDate"
+    Expression ="tbl818CubScoutAwards.SilverBearCount"
+    Expression ="tbl818CubScoutAwards.Aquanaut"
+    Expression ="tbl818CubScoutAwards.Artist"
+    Expression ="tbl818CubScoutAwards.Athlete"
+    Expression ="tbl818CubScoutAwards.Citizen"
+    Expression ="tbl818CubScoutAwards.Communicator"
+    Expression ="tbl818CubScoutAwards.Craftsman"
+    Expression ="tbl818CubScoutAwards.Engineer"
+    Expression ="tbl818CubScoutAwards.FamilyMember"
+    Expression ="tbl818CubScoutAwards.Fitness"
+    Expression ="tbl818CubScoutAwards.Forester"
+    Expression ="tbl818CubScoutAwards.Geologist"
+    Expression ="tbl818CubScoutAwards.Handyman"
+    Expression ="tbl818CubScoutAwards.Naturalist"
+    Expression ="tbl818CubScoutAwards.Outdoorsman"
+    Expression ="tbl818CubScoutAwards.Readyman"
+    Expression ="tbl818CubScoutAwards.Scholar"
+    Expression ="tbl818CubScoutAwards.Scientist"
+    Expression ="tbl818CubScoutAwards.Showman"
+    Expression ="tbl818CubScoutAwards.Sportsman"
+    Expression ="tbl818CubScoutAwards.Traveler"
+    Expression ="tbl818CubScoutAwards.CompassEmblem"
+    Expression ="tbl818CubScoutAwards.CompassPoints"
+    Expression ="tbl818CubScoutAwards.Device"
+    Expression ="tbl818CubScoutAwards.ServiceStar"
+    Expression ="tbl818CubScoutAwards.TroopVisit1"
+    Expression ="tbl818CubScoutAwards.TroopVisit2"
+    Expression ="tbl818CubScoutAwards.TroopVisit3"
+End
+Begin OrderBy
+    Expression ="tbl818CubScoutAwards.DenTypeID"
+    Flag =0
+    Expression ="tbl818CubScoutAwards.CubFirstName"
+    Flag =0
+    Expression ="tbl818CubScoutAwards.CubLastName"
+    Flag =0
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+Begin
+End
+Begin
+    State =2
+    Left =-4
+    Top =-27
+    Right =1024
+    Bottom =642
+    Left =-1
+    Top =-1
+    Right =1021
+    Bottom =180
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =48
+        Top =7
+        Right =217
+        Bottom =157
+        Top =2
+        Name ="tbl818CubScoutAwards"
+        Name =""
+    End
+End

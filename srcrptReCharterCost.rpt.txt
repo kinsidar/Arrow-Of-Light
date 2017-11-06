@@ -1,0 +1,206 @@
+Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    DatasheetFontHeight =10
+    ItemSuffix =12
+    Left =975
+    Right =9660
+    Bottom =5550
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x9ba9fc835d28e240
+    End
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+    End
+    PrtDevMode = Begin
+    End
+    PrtDevNames = Begin
+    End
+    FilterOnLoad =0
+    DatasheetBackColor12 =16777215
+    DisplayOnSharePointSite =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontFamily =2
+            FontName ="Arial"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            OldBorderStyle =0
+            TextFontFamily =2
+            FontName ="Arial"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =0
+        End
+        Begin PageHeader
+            Height =360
+            Name ="PageHeader"
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =2880
+            Name ="Detail"
+            Begin
+                Begin TextBox
+                    TextAlign =3
+                    Left =3240
+                    Top =780
+                    Width =1080
+                    Name ="txtCountOfCubID"
+                    ControlSource ="=DLookUp(\"CountOfCubID\",\"qryCubScoutsCount\")"
+                    Format ="$#,##0.00;($#,##0.00)"
+
+                    Begin
+                        Begin Label
+                            Left =1440
+                            Top =780
+                            Width =1440
+                            Height =216
+                            Name ="Label1"
+                            Caption ="Number of Scouts:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =3
+                    Left =3240
+                    Top =1140
+                    Width =1080
+                    TabIndex =1
+                    Name ="txtCostPerScout"
+                    ControlSource ="=7"
+                    Format ="$#,##0.00;($#,##0.00)"
+
+                    Begin
+                        Begin Label
+                            Left =1440
+                            Top =1140
+                            Width =1440
+                            Height =216
+                            Name ="Label3"
+                            Caption ="Cost per Scout:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =3
+                    Left =3240
+                    Top =1560
+                    Width =1080
+                    TabIndex =2
+                    Name ="txtCountOfCubIDBoysLife"
+                    ControlSource ="=DLookUp(\"CountOfCubID\",\"qryCubScoutsBoysLifeCount\")"
+                    Format ="$#,##0.00;($#,##0.00)"
+
+                    Begin
+                        Begin Label
+                            Left =1440
+                            Top =1560
+                            Width =1536
+                            Height =216
+                            Name ="Label5"
+                            Caption ="Number of Boys Life:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =3
+                    Left =3240
+                    Top =1920
+                    Width =1080
+                    TabIndex =3
+                    Name ="txtCostPerBoysLife"
+                    ControlSource ="=9"
+                    Format ="$#,##0.00;($#,##0.00)"
+
+                    Begin
+                        Begin Label
+                            Left =1440
+                            Top =1920
+                            Width =1440
+                            Height =216
+                            Name ="Label7"
+                            Caption ="Cost per Boys Life:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    FontUnderline = NotDefault
+                    TextAlign =3
+                    TextFontFamily =34
+                    Left =4680
+                    Top =1140
+                    Width =1080
+                    TabIndex =4
+                    Name ="txtCubScoutsCost"
+                    ControlSource ="=[txtCountOfCubID]*[txtCostPerScout]"
+                    Format ="$#,##0.00;($#,##0.00)"
+
+                End
+                Begin Label
+                    TextFontFamily =34
+                    Left =1440
+                    Top =180
+                    Width =4020
+                    Height =420
+                    FontSize =12
+                    FontWeight =700
+                    Name ="Label10"
+                    Caption ="Pack 818 Re-Charter Cost 2001"
+                End
+                Begin TextBox
+                    FontUnderline = NotDefault
+                    TextAlign =3
+                    TextFontFamily =34
+                    Left =4680
+                    Top =1920
+                    Width =1080
+                    TabIndex =5
+                    Name ="txtBoysLifeCost"
+                    ControlSource ="=[txtCountOfCubIDBoysLife]*[txtCostPerBoysLife]"
+                    Format ="$#,##0.00;($#,##0.00)"
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =360
+            Name ="PageFooter"
+        End
+    End
+End

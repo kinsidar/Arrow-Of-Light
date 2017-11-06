@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="zzztblDues" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="zzztblDues">
+    <xsd:annotation>
+      <xsd:appinfo></xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="ID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
+        <xsd:element name="D102698" minOccurs="0" od:jetType="currency" od:sqlSType="money" type="xsd:double"></xsd:element>
+        <xsd:element name="D110298" minOccurs="0" od:jetType="currency" od:sqlSType="money" type="xsd:double"></xsd:element>
+        <xsd:element name="D111698" minOccurs="0" od:jetType="currency" od:sqlSType="money" type="xsd:double"></xsd:element>
+        <xsd:element name="D120798" minOccurs="0" od:jetType="currency" od:sqlSType="money" type="xsd:double"></xsd:element>
+        <xsd:element name="D112398" minOccurs="0" od:jetType="currency" od:sqlSType="money" type="xsd:double"></xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
+

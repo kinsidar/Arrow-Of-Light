@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="tbl818CubScoutAwards" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="tbl818CubScoutAwards">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <od:index index-name="CubID" index-key="CubID " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PrimaryKey" index-key="CubID " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
+        <od:index index-name="tblDenTypetbl818CubScoutAwards" index-key="DenTypeID " primary="no" unique="no" clustered="no" order="asc"></od:index>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="CubID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
+        <xsd:element name="Active" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean"></xsd:element>
+        <xsd:element name="DenYear" minOccurs="1" od:jetType="double" od:sqlSType="float" od:nonNullable="yes" type="xsd:double"></xsd:element>
+        <xsd:element name="DenNbr" minOccurs="1" od:jetType="double" od:sqlSType="float" od:nonNullable="yes" type="xsd:double"></xsd:element>
+        <xsd:element name="DenTypeID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="CubLastName" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="255"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="CubMiddleName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="CubFirstName" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="255"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="DateOfBirth" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="School" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="Bobcat" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Wolf" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Bear" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="WebelosBadge" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="ArrowOfLight" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="GoldWolfDate" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="SilverWolfCount" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="GoldBearDate" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="SilverBearCount" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Aquanaut" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Artist" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Athlete" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Citizen" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Communicator" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Craftsman" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Engineer" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="FamilyMember" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Fitness" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Forester" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Geologist" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Handyman" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Naturalist" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Outdoorsman" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Readyman" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Scholar" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Scientist" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Showman" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Sportsman" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Traveler" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="CompassEmblem" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="CompassPoints" minOccurs="0" od:jetType="byte" od:sqlSType="tinyint" type="xsd:unsignedByte"></xsd:element>
+        <xsd:element name="Device" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="ServiceStar" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Archery" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="BBGuns" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Communicating" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Swimming" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="TroopVisit1" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="TroopVisit2" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="TroopVisit3" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Field59" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Field60" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
+

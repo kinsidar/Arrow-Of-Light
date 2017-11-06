@@ -1,0 +1,100 @@
+Operation =1
+Option =0
+Begin InputTables
+    Name ="tbl818CubScoutAwards"
+End
+Begin OutputColumns
+    Expression ="tbl818CubScoutAwards.CubID"
+    Expression ="tbl818CubScoutAwards.Active"
+    Expression ="tbl818CubScoutAwards.DenYear"
+    Expression ="tbl818CubScoutAwards.DenNbr"
+    Expression ="tbl818CubScoutAwards.DenType"
+    Expression ="tbl818CubScoutAwards.CubFirstName"
+    Expression ="tbl818CubScoutAwards.CubLastName"
+    Expression ="tbl818CubScoutAwards.Bobcat"
+    Expression ="tbl818CubScoutAwards.Wolf"
+    Expression ="tbl818CubScoutAwards.Bear"
+    Expression ="tbl818CubScoutAwards.WebelosBadge"
+    Expression ="tbl818CubScoutAwards.ArrowOfLight"
+    Expression ="tbl818CubScoutAwards.GoldWolfDate"
+    Expression ="tbl818CubScoutAwards.SilverWolfCount"
+    Expression ="tbl818CubScoutAwards.GoldBearDate"
+    Expression ="tbl818CubScoutAwards.SilverBearCount"
+    Expression ="tbl818CubScoutAwards.Aquanaut"
+    Expression ="tbl818CubScoutAwards.Artist"
+    Expression ="tbl818CubScoutAwards.Athlete"
+    Expression ="tbl818CubScoutAwards.Citizen"
+    Expression ="tbl818CubScoutAwards.Communicator"
+    Expression ="tbl818CubScoutAwards.Craftsman"
+    Expression ="tbl818CubScoutAwards.Engineer"
+    Expression ="tbl818CubScoutAwards.FamilyMember"
+    Expression ="tbl818CubScoutAwards.Fitness"
+    Expression ="tbl818CubScoutAwards.Forester"
+    Expression ="tbl818CubScoutAwards.Geologist"
+    Expression ="tbl818CubScoutAwards.Handyman"
+    Expression ="tbl818CubScoutAwards.Naturalist"
+    Expression ="tbl818CubScoutAwards.Outdoorsman"
+    Expression ="tbl818CubScoutAwards.Readyman"
+    Expression ="tbl818CubScoutAwards.Scholar"
+    Expression ="tbl818CubScoutAwards.Scientist"
+    Expression ="tbl818CubScoutAwards.Showman"
+    Expression ="tbl818CubScoutAwards.Sportsman"
+    Expression ="tbl818CubScoutAwards.Traveler"
+    Expression ="tbl818CubScoutAwards.CompassEmblem"
+    Expression ="tbl818CubScoutAwards.Device"
+    Expression ="tbl818CubScoutAwards.ServiceStar"
+    Expression ="tbl818CubScoutAwards.SilverW1"
+    Expression ="tbl818CubScoutAwards.SilverW2"
+    Expression ="tbl818CubScoutAwards.SilverW3"
+    Expression ="tbl818CubScoutAwards.SilverW4"
+    Expression ="tbl818CubScoutAwards.SilverW5"
+    Expression ="tbl818CubScoutAwards.SilverB1"
+    Expression ="tbl818CubScoutAwards.SilverB2"
+    Expression ="tbl818CubScoutAwards.SilverB3"
+    Expression ="tbl818CubScoutAwards.SilverB4"
+    Expression ="tbl818CubScoutAwards.SilverB5"
+    Expression ="tbl818CubScoutAwards.Archery"
+    Expression ="tbl818CubScoutAwards.BBGuns"
+    Expression ="tbl818CubScoutAwards.Communicating"
+    Expression ="tbl818CubScoutAwards.Swimming"
+    Expression ="tbl818CubScoutAwards.Field56"
+    Expression ="tbl818CubScoutAwards.Field57"
+    Expression ="tbl818CubScoutAwards.Field58"
+    Expression ="tbl818CubScoutAwards.Field59"
+    Expression ="tbl818CubScoutAwards.Field60"
+End
+Begin OrderBy
+    Expression ="tbl818CubScoutAwards.CubFirstName"
+    Flag =0
+    Expression ="tbl818CubScoutAwards.CubLastName"
+    Flag =0
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+Begin
+End
+Begin
+    State =0
+    Left =90
+    Top =78
+    Right =1002
+    Bottom =442
+    Left =-1
+    Top =-1
+    Right =905
+    Bottom =180
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =48
+        Top =7
+        Right =168
+        Bottom =157
+        Top =0
+        Name ="tbl818CubScoutAwards"
+        Name =""
+    End
+End

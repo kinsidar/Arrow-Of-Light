@@ -1,0 +1,74 @@
+|-- Name >> tblDenType
+|-- Updatable >> True
+|-- DateCreated >> DateCreated
+|-- LastUpdated >> LastUpdated
+|-- Connect >> 
+|-- Attributes >> 0
+|-- SourceTableName >> 
+|-- RecordCount >> 7
+|-- ValidationRule >> 
+|-- ValidationText >> 
+|-- OrderByOn >> False
+--------------------------------------------------
+|-- DenTypeID (Field in tblDenType)
+|------ Attributes >> 17
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> DenTypeID
+|------ OrdinalPosition >> 1
+|------ Size >> 4
+|------ SourceField >> DenTypeID
+|------ SourceTable >> tblDenType
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|-- DenType (Field in tblDenType)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> DenType
+|------ OrdinalPosition >> 2
+|------ Size >> 2
+|------ SourceField >> DenType
+|------ SourceTable >> tblDenType
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|-- DenTypeDescription (Field in tblDenType)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> DenTypeDescription
+|------ OrdinalPosition >> 3
+|------ Size >> 10
+|------ SourceField >> DenTypeDescription
+|------ SourceTable >> tblDenType
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109

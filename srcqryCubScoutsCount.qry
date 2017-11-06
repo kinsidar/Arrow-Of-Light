@@ -1,0 +1,64 @@
+Operation =1
+Option =0
+Having ="(((tbl818CubScoutAwards.Active)=True))"
+Begin InputTables
+    Name ="tbl818CubScoutAwards"
+    Name ="tblDenType"
+End
+Begin OutputColumns
+    Alias ="CountOfCubID"
+    Expression ="Count(tbl818CubScoutAwards.CubID)"
+End
+Begin Joins
+    LeftTable ="tblDenType"
+    RightTable ="tbl818CubScoutAwards"
+    Expression ="tblDenType.DenTypeID = tbl818CubScoutAwards.DenTypeID"
+    Flag =1
+End
+Begin Groups
+    Expression ="tbl818CubScoutAwards.Active"
+    GroupLevel =0
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="-1"
+Begin
+    Begin
+        dbText "Name" ="CountOfCubID"
+        dbInteger "ColumnWidth" ="1488"
+        dbBoolean "ColumnHidden" ="0"
+    End
+End
+Begin
+    State =0
+    Left =70
+    Top =26
+    Right =1002
+    Bottom =390
+    Left =-1
+    Top =-1
+    Right =921
+    Bottom =180
+    Left =0
+    Top =0
+    ColumnsShown =543
+    Begin
+        Left =48
+        Top =7
+        Right =202
+        Bottom =157
+        Top =0
+        Name ="tbl818CubScoutAwards"
+        Name =""
+    End
+    Begin
+        Left =250
+        Top =7
+        Right =370
+        Bottom =119
+        Top =0
+        Name ="tblDenType"
+        Name =""
+    End
+End

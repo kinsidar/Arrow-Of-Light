@@ -1,0 +1,94 @@
+---------------------------
+TABLE: tbl818CubScoutAwards
+---------------------------
+FIELD NAME            FIELD TYPE      SIZE    DESCRIPTION
+==================    ============    ====    ===========
+CubID                 AutoNumber      4                  
+Active                Yes/No          1                  
+DenYear               Double          8                  
+DenNbr                Double          8                  
+DenTypeID             Long Integer    4                  
+CubLastName           Text            255                
+CubMiddleName         Text            50                 
+CubFirstName          Text            255                
+DateOfBirth           Date/Time       8                  
+School                Text            50                 
+Bobcat                Date/Time       8                  
+Wolf                  Date/Time       8                  
+Bear                  Date/Time       8                  
+WebelosBadge          Date/Time       8                  
+ArrowOfLight          Date/Time       8                  
+GoldWolfDate          Date/Time       8                  
+SilverWolfCount       Double          8                  
+GoldBearDate          Date/Time       8                  
+SilverBearCount       Double          8                  
+Aquanaut              Date/Time       8                  
+Artist                Date/Time       8                  
+Athlete               Date/Time       8                  
+Citizen               Date/Time       8                  
+Communicator          Date/Time       8                  
+Craftsman             Date/Time       8                  
+Engineer              Date/Time       8                  
+FamilyMember          Date/Time       8                  
+Fitness               Date/Time       8                  
+Forester              Date/Time       8                  
+Geologist             Date/Time       8                  
+Handyman              Date/Time       8                  
+Naturalist            Date/Time       8                  
+Outdoorsman           Date/Time       8                  
+Readyman              Date/Time       8                  
+Scholar               Date/Time       8                  
+Scientist             Date/Time       8                  
+Showman               Date/Time       8                  
+Sportsman             Date/Time       8                  
+Traveler              Date/Time       8                  
+CompassEmblem         Date/Time       8                  
+CompassPoints         Byte            1                  
+Device                Date/Time       8                  
+ServiceStar           Date/Time       8                  
+Archery               Date/Time       8                  
+BBGuns                Date/Time       8                  
+Communicating         Date/Time       8                  
+Swimming              Date/Time       8                  
+TroopVisit1           Date/Time       8                  
+TroopVisit2           Date/Time       8                  
+TroopVisit3           Date/Time       8                  
+Field59               Date/Time       8                  
+Field60               Date/Time       8                  
+
+
+-----------------
+TABLE: tblDenType
+-----------------
+FIELD NAME            FIELD TYPE      SIZE    DESCRIPTION
+==================    ============    ====    ===========
+DenTypeID             AutoNumber      4                  
+DenType               Text            2                  
+DenTypeDescription    Text            10                 
+
+
+---------------------------
+TABLE: tblParentsAndLeaders
+---------------------------
+FIELD NAME            FIELD TYPE      SIZE    DESCRIPTION
+==================    ============    ====    ===========
+ParentID              AutoNumber      4                  
+ParentFirstName       Text            50                 
+ParentMiddleName      Text            50                 
+ParentLastName        Text            50                 
+Country               Text            50                 
+Address               Text            50                 
+City                  Text            50                 
+State                 Text            50                 
+ZipCode               Text            50                 
+HomePhone             Text            50                 
+DateOfBirth           Date/Time       8                  
+Occupation            Text            50                 
+Employer              Text            50                 
+BusinessPhone         Text            50                 
+PreviousScoutExp      Text            255                
+Gender                Text            50                 
+Email                 Text            50                 
+ApplicationDate       Date/Time       8                  
+
+

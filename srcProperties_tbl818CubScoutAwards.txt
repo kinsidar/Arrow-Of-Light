@@ -1,0 +1,1289 @@
+|-- Name >> tbl818CubScoutAwards
+|-- Updatable >> True
+|-- DateCreated >> DateCreated
+|-- LastUpdated >> LastUpdated
+|-- Connect >> 
+|-- Attributes >> 0
+|-- SourceTableName >> 
+|-- RecordCount >> 91
+|-- ValidationRule >> 
+|-- ValidationText >> 
+|-- OrderByOn >> True
+|-- Orientation >> 0
+|-- DefaultView >> 2
+|-- OrderBy >> [tbl818CubScoutAwards].[CubFirstName], [tbl818CubScoutAwards].[Active], Lookup_DenTypeID.DenType DESC
+|-- Filter >> ([tbl818CubScoutAwards].[Active] Not In (0))
+|-- GUID >> GUID
+|-- DisplayViewsOnSharePointSite >> 1
+|-- TotalsRow >> False
+|-- FilterOnLoad >> False
+|-- OrderByOnLoad >> True
+|-- HideNewField >> False
+--------------------------------------------------
+|-- CubID (Field in tbl818CubScoutAwards)
+|------ Attributes >> 17
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> CubID
+|------ OrdinalPosition >> 0
+|------ Size >> 4
+|------ SourceField >> CubID
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 1
+|------ ColumnHidden >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Active (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 1
+|------ Name >> Active
+|------ OrdinalPosition >> 1
+|------ Size >> 1
+|------ SourceField >> Active
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ Format >> Yes/No
+|------ DisplayControl >> 106
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- DenYear (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 7
+|------ Name >> DenYear
+|------ OrdinalPosition >> 2
+|------ Size >> 8
+|------ SourceField >> DenYear
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- DenNbr (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 7
+|------ Name >> DenNbr
+|------ OrdinalPosition >> 3
+|------ Size >> 8
+|------ SourceField >> DenNbr
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- DenTypeID (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> DenTypeID
+|------ OrdinalPosition >> 4
+|------ Size >> 4
+|------ SourceField >> DenTypeID
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 0
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 111
+|------ RowSourceType >> Table/Query
+|------ RowSource >> SELECT tblDenType.DenTypeID, tblDenType.DenType, tblDenType.DenTypeDescription FROM tblDenType;
+|------ BoundColumn >> 1
+|------ ColumnCount >> 3
+|------ ColumnHeads >> False
+|------ ColumnWidths >> 0;720;1440
+|------ ListRows >> 8
+|------ ListWidth >> 2160twip
+|------ LimitToList >> True
+|------ TextAlign >> 0
+|------ AllowValueListEdits >> False
+|------ AggregateType >> -1
+|------ ShowOnlyRowSourceValues >> False
+|-- CubLastName (Field in tbl818CubScoutAwards)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> CubLastName
+|------ OrdinalPosition >> 5
+|------ Size >> 255
+|------ SourceField >> CubLastName
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ UnicodeCompression >> True
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- CubMiddleName (Field in tbl818CubScoutAwards)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> CubMiddleName
+|------ OrdinalPosition >> 6
+|------ Size >> 50
+|------ SourceField >> CubMiddleName
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- CubFirstName (Field in tbl818CubScoutAwards)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> CubFirstName
+|------ OrdinalPosition >> 7
+|------ Size >> 255
+|------ SourceField >> CubFirstName
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ UnicodeCompression >> True
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- DateOfBirth (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> DateOfBirth
+|------ OrdinalPosition >> 8
+|------ Size >> 8
+|------ SourceField >> DateOfBirth
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ Format >> Short Date
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ InputMask >> 99/99/0000;0;_
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- School (Field in tbl818CubScoutAwards)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> School
+|------ OrdinalPosition >> 9
+|------ Size >> 50
+|------ SourceField >> School
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Bobcat (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Bobcat
+|------ OrdinalPosition >> 10
+|------ Size >> 8
+|------ SourceField >> Bobcat
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Wolf (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Wolf
+|------ OrdinalPosition >> 11
+|------ Size >> 8
+|------ SourceField >> Wolf
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Bear (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Bear
+|------ OrdinalPosition >> 12
+|------ Size >> 8
+|------ SourceField >> Bear
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- WebelosBadge (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> WebelosBadge
+|------ OrdinalPosition >> 13
+|------ Size >> 8
+|------ SourceField >> WebelosBadge
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- ArrowOfLight (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> ArrowOfLight
+|------ OrdinalPosition >> 14
+|------ Size >> 8
+|------ SourceField >> ArrowOfLight
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- GoldWolfDate (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> GoldWolfDate
+|------ OrdinalPosition >> 15
+|------ Size >> 8
+|------ SourceField >> GoldWolfDate
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- SilverWolfCount (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 7
+|------ Name >> SilverWolfCount
+|------ OrdinalPosition >> 16
+|------ Size >> 8
+|------ SourceField >> SilverWolfCount
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- GoldBearDate (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> GoldBearDate
+|------ OrdinalPosition >> 17
+|------ Size >> 8
+|------ SourceField >> GoldBearDate
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- SilverBearCount (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 7
+|------ Name >> SilverBearCount
+|------ OrdinalPosition >> 18
+|------ Size >> 8
+|------ SourceField >> SilverBearCount
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Aquanaut (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Aquanaut
+|------ OrdinalPosition >> 19
+|------ Size >> 8
+|------ SourceField >> Aquanaut
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Artist (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Artist
+|------ OrdinalPosition >> 20
+|------ Size >> 8
+|------ SourceField >> Artist
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Athlete (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Athlete
+|------ OrdinalPosition >> 21
+|------ Size >> 8
+|------ SourceField >> Athlete
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Citizen (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Citizen
+|------ OrdinalPosition >> 22
+|------ Size >> 8
+|------ SourceField >> Citizen
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Communicator (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Communicator
+|------ OrdinalPosition >> 23
+|------ Size >> 8
+|------ SourceField >> Communicator
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Craftsman (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Craftsman
+|------ OrdinalPosition >> 24
+|------ Size >> 8
+|------ SourceField >> Craftsman
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Engineer (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Engineer
+|------ OrdinalPosition >> 25
+|------ Size >> 8
+|------ SourceField >> Engineer
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- FamilyMember (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> FamilyMember
+|------ OrdinalPosition >> 26
+|------ Size >> 8
+|------ SourceField >> FamilyMember
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Fitness (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Fitness
+|------ OrdinalPosition >> 27
+|------ Size >> 8
+|------ SourceField >> Fitness
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Forester (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Forester
+|------ OrdinalPosition >> 28
+|------ Size >> 8
+|------ SourceField >> Forester
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Geologist (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Geologist
+|------ OrdinalPosition >> 29
+|------ Size >> 8
+|------ SourceField >> Geologist
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Handyman (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Handyman
+|------ OrdinalPosition >> 30
+|------ Size >> 8
+|------ SourceField >> Handyman
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Naturalist (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Naturalist
+|------ OrdinalPosition >> 31
+|------ Size >> 8
+|------ SourceField >> Naturalist
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Outdoorsman (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Outdoorsman
+|------ OrdinalPosition >> 32
+|------ Size >> 8
+|------ SourceField >> Outdoorsman
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Readyman (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Readyman
+|------ OrdinalPosition >> 33
+|------ Size >> 8
+|------ SourceField >> Readyman
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Scholar (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Scholar
+|------ OrdinalPosition >> 34
+|------ Size >> 8
+|------ SourceField >> Scholar
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Scientist (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Scientist
+|------ OrdinalPosition >> 35
+|------ Size >> 8
+|------ SourceField >> Scientist
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Showman (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Showman
+|------ OrdinalPosition >> 36
+|------ Size >> 8
+|------ SourceField >> Showman
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Sportsman (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Sportsman
+|------ OrdinalPosition >> 37
+|------ Size >> 8
+|------ SourceField >> Sportsman
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Traveler (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Traveler
+|------ OrdinalPosition >> 38
+|------ Size >> 8
+|------ SourceField >> Traveler
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- CompassEmblem (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> CompassEmblem
+|------ OrdinalPosition >> 39
+|------ Size >> 8
+|------ SourceField >> CompassEmblem
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- CompassPoints (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 2
+|------ Name >> CompassPoints
+|------ OrdinalPosition >> 40
+|------ Size >> 1
+|------ SourceField >> CompassPoints
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 0
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Device (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Device
+|------ OrdinalPosition >> 41
+|------ Size >> 8
+|------ SourceField >> Device
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- ServiceStar (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> ServiceStar
+|------ OrdinalPosition >> 42
+|------ Size >> 8
+|------ SourceField >> ServiceStar
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Archery (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Archery
+|------ OrdinalPosition >> 43
+|------ Size >> 8
+|------ SourceField >> Archery
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- BBGuns (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> BBGuns
+|------ OrdinalPosition >> 44
+|------ Size >> 8
+|------ SourceField >> BBGuns
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Communicating (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Communicating
+|------ OrdinalPosition >> 45
+|------ Size >> 8
+|------ SourceField >> Communicating
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Swimming (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Swimming
+|------ OrdinalPosition >> 46
+|------ Size >> 8
+|------ SourceField >> Swimming
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- TroopVisit1 (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> TroopVisit1
+|------ OrdinalPosition >> 47
+|------ Size >> 8
+|------ SourceField >> TroopVisit1
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- TroopVisit2 (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> TroopVisit2
+|------ OrdinalPosition >> 48
+|------ Size >> 8
+|------ SourceField >> TroopVisit2
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- TroopVisit3 (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> TroopVisit3
+|------ OrdinalPosition >> 49
+|------ Size >> 8
+|------ SourceField >> TroopVisit3
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1440
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Field59 (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Field59
+|------ OrdinalPosition >> 50
+|------ Size >> 8
+|------ SourceField >> Field59
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> True
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|-- Field60 (Field in tbl818CubScoutAwards)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> Field60
+|------ OrdinalPosition >> 51
+|------ Size >> 8
+|------ SourceField >> Field60
+|------ SourceTable >> tbl818CubScoutAwards
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> True
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1

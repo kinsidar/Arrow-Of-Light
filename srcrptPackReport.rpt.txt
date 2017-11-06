@@ -1,0 +1,1726 @@
+Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    OrderByOn = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =18720
+    DatasheetFontHeight =10
+    ItemSuffix =108
+    Left =510
+    Right =11730
+    Bottom =6765
+    DatasheetGridlinesColor =12632256
+    OrderBy ="Lookup_DenType.DenType DESC"
+    RecSrcDt = Begin
+        0x5b1ecded9c08e240
+    End
+    RecordSource ="qryPackReport"
+    Caption ="qryPackReport"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+    End
+    PrtDevMode = Begin
+    End
+    PrtDevNames = Begin
+    End
+    FilterOnLoad =0
+    DatasheetBackColor12 =16777215
+    DisplayOnSharePointSite =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderColor =8388608
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Line
+            BorderColor =8388608
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Image
+            OldBorderStyle =0
+            PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            OldBorderStyle =0
+            BackStyle =0
+            FontName ="Arial"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =0
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            FontName ="Arial"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BackStyle =0
+            FontName ="Arial"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Subform
+            OldBorderStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =0
+            Name ="ReportHeader"
+        End
+        Begin PageHeader
+            Height =2040
+            Name ="PageHeader"
+            Begin
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =17760
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label106"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =16800
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label105"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =15840
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label104"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =14880
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label103"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =13920
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label102"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =12960
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label101"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =12000
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label100"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =11040
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label99"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =10080
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label94"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =9120
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label92"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =8160
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label91"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =7200
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label90"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =6240
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label88"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =5280
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label87"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =4320
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label86"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =3360
+                    Width =479
+                    Height =1980
+                    FontSize =8
+                    BackColor =12632256
+                    BorderColor =12632256
+                    ForeColor =0
+                    Name ="Label119"
+                    Caption =" "
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =2
+                    Left =60
+                    Top =1680
+                    Width =480
+                    Height =288
+                    FontSize =9
+                    Name ="DenYear Label"
+                    Caption ="Year"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="DenYear_Label"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =2
+                    Left =540
+                    Top =1680
+                    Width =420
+                    Height =288
+                    FontSize =9
+                    Name ="DenNbr Label"
+                    Caption ="Den"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="DenNbr_Label"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    Left =960
+                    Top =1680
+                    Width =900
+                    Height =288
+                    FontSize =9
+                    Name ="DenType Label"
+                    Caption ="Rank"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="DenType_Label"
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    Left =1860
+                    Top =1680
+                    Width =1500
+                    Height =288
+                    FontSize =9
+                    Name ="CubFirstName Label"
+                    Caption ="Cub Scout Name"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="CubFirstName_Label"
+                End
+                Begin Label
+                    Visible = NotDefault
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    Left =2820
+                    Top =1680
+                    Width =180
+                    Height =288
+                    FontSize =9
+                    BackColor =255
+                    Name ="CubLastName Label"
+                    Caption ="Last Name"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="CubLastName_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =3480
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Bobcat Label"
+                    Caption ="Bobcat"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Bobcat_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =3960
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Wolf Label"
+                    Caption ="Wolf"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Wolf_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =4440
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Bear Label"
+                    Caption ="Bear"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Bear_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =4860
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="WebelosBadge Label"
+                    Caption ="Webelos"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="WebelosBadge_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =5340
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="ArrowOfLight Label"
+                    Caption ="Arrow"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="ArrowOfLight_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =5880
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="GoldWolfDate Label"
+                    Caption ="Gold Wolf"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="GoldWolfDate_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =6300
+                    Top =60
+                    Width =180
+                    Height =1920
+                    FontSize =8
+                    Name ="SilverWolfCount Label"
+                    Caption ="Silver"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="SilverWolfCount_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =6840
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="GoldBearDate Label"
+                    Caption ="Gold Bear"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="GoldBearDate_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =7260
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="SilverBearCount Label"
+                    Caption ="Silver"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="SilverBearCount_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =7800
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Aquanaut Label"
+                    Caption ="Aquanaut"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Aquanaut_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =8280
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Artist Label"
+                    Caption ="Artist"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Artist_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =8760
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Athlete Label"
+                    Caption ="Athlete"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Athlete_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =9240
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Citizen Label"
+                    Caption ="Citizen"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Citizen_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =9660
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Communicator Label"
+                    Caption ="Communi-"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Communicator_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =10200
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Craftsman Label"
+                    Caption ="Craftsman"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Craftsman_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =10680
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Engineer Label"
+                    Caption ="Engineer"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Engineer_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =11100
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="FamilyMember Label"
+                    Caption ="Family"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="FamilyMember_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =11640
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Fitness Label"
+                    Caption ="Fitness"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Fitness_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =12120
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Forester Label"
+                    Caption ="Forester"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Forester_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =12600
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Geologist Label"
+                    Caption ="Geologist"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Geologist_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =13080
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Handyman Label"
+                    Caption ="Handyman"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Handyman_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =13560
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Naturalist Label"
+                    Caption ="Naturalist"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Naturalist_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =13980
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Outdoorsman Label"
+                    Caption ="Outdoors-"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Outdoorsman_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =14520
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Readyman Label"
+                    Caption ="Readyman"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Readyman_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =15000
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Scholar Label"
+                    Caption ="Scholar"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Scholar_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =15480
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Scientist Label"
+                    Caption ="Scientist"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Scientist_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =15960
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Showman Label"
+                    Caption ="Showman"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Showman_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =16440
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Sportsman Label"
+                    Caption ="Sportsman"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Sportsman_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =16920
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Traveler Label"
+                    Caption ="Traveler"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Traveler_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =17340
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="CompassEmblem Label"
+                    Caption ="Compass"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="CompassEmblem_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =17880
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="Device Label"
+                    Caption ="Device"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Device_Label"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =18300
+                    Top =60
+                    Width =180
+                    Height =1908
+                    FontSize =8
+                    Name ="ServiceStar Label"
+                    Caption ="Service"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="ServiceStar_Label"
+                End
+                Begin Line
+                    BorderWidth =2
+                    Left =60
+                    Top =1968
+                    Width =18660
+                    Height =12
+                    Name ="Line81"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =5040
+                    Top =60
+                    Width =180
+                    Height =1920
+                    FontSize =8
+                    Name ="Label83"
+                    Caption ="     Badge"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =5520
+                    Top =60
+                    Width =180
+                    Height =1920
+                    FontSize =8
+                    Name ="Label84"
+                    Caption ="  Of Light"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    BackStyle =1
+                    Left =60
+                    Top =60
+                    Width =2820
+                    Height =504
+                    FontSize =20
+                    Name ="Label78"
+                    Caption ="Pack 818 Report"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =6480
+                    Top =60
+                    Width =180
+                    Height =1920
+                    FontSize =8
+                    Name ="Label85"
+                    Caption ="      Wolf"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =7440
+                    Top =60
+                    Width =180
+                    Height =1920
+                    FontSize =8
+                    Name ="Label89"
+                    Caption ="      Bear"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =9840
+                    Top =60
+                    Width =180
+                    Height =1920
+                    FontSize =8
+                    Name ="Label93"
+                    Caption ="     cator"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =11280
+                    Top =60
+                    Width =180
+                    Height =1920
+                    FontSize =8
+                    Name ="Label95"
+                    Caption ="    Member"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =14160
+                    Top =60
+                    Width =180
+                    Height =1920
+                    FontSize =8
+                    Name ="Label96"
+                    Caption ="       man"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =17520
+                    Top =60
+                    Width =180
+                    Height =1920
+                    FontSize =8
+                    Name ="Label97"
+                    Caption ="    Emblem"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =49
+                    Left =18480
+                    Top =60
+                    Width =180
+                    Height =1920
+                    FontSize =8
+                    Name ="Label98"
+                    Caption ="      Star"
+                    FontName ="Courier New"
+                    Tag ="DetachedLabel"
+                End
+                Begin Rectangle
+                    Left =3360
+                    Width =15360
+                    Height =1980
+                    Name ="Box107"
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =300
+            Name ="Detail"
+            Begin
+                Begin TextBox
+                    TextAlign =2
+                    Left =60
+                    Top =60
+                    Width =480
+                    Name ="DenYear"
+                    ControlSource ="DenYear"
+
+                End
+                Begin TextBox
+                    TextAlign =2
+                    Left =540
+                    Top =60
+                    Width =420
+                    TabIndex =1
+                    Name ="DenNbr"
+                    ControlSource ="DenNbr"
+
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    ColumnCount =2
+                    Left =960
+                    Top =60
+                    Width =900
+                    TabIndex =2
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"4\""
+                    Name ="DenType"
+                    ControlSource ="DenType"
+                    RowSourceType ="Table/Query"
+                    RowSource ="Select * From tblDenType"
+                    ColumnWidths ="0;1440"
+
+                End
+                Begin TextBox
+                    Left =1860
+                    Top =60
+                    Width =1500
+                    TabIndex =3
+                    Name ="txtCubFirstName"
+                    ControlSource ="=[CubFirstName] & \" \" & [CubLastName]"
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    BackStyle =1
+                    Left =2820
+                    Top =60
+                    Width =180
+                    TabIndex =4
+                    BackColor =255
+                    Name ="CubLastName"
+                    ControlSource ="CubLastName"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =3360
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =5
+                    BackColor =12632256
+                    Name ="Bobcat"
+                    ControlSource ="Bobcat"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =3840
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =6
+                    Name ="Wolf"
+                    ControlSource ="Wolf"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =4320
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =7
+                    BackColor =12632256
+                    Name ="Bear"
+                    ControlSource ="Bear"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =4800
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =8
+                    Name ="WebelosBadge"
+                    ControlSource ="WebelosBadge"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =5280
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =9
+                    BackColor =12632256
+                    Name ="ArrowOfLight"
+                    ControlSource ="ArrowOfLight"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =5760
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =10
+                    Name ="GoldWolfDate"
+                    ControlSource ="GoldWolfDate"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =6240
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =11
+                    BackColor =12632256
+                    Name ="SilverWolfCount"
+                    ControlSource ="SilverWolfCount"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =6720
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =12
+                    Name ="GoldBearDate"
+                    ControlSource ="GoldBearDate"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =7200
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =13
+                    BackColor =12632256
+                    Name ="SilverBearCount"
+                    ControlSource ="SilverBearCount"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =7680
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =14
+                    Name ="Aquanaut"
+                    ControlSource ="Aquanaut"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =8160
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =15
+                    BackColor =12632256
+                    Name ="Artist"
+                    ControlSource ="Artist"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =8640
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =16
+                    Name ="Athlete"
+                    ControlSource ="Athlete"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =9120
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =17
+                    BackColor =12632256
+                    Name ="Citizen"
+                    ControlSource ="Citizen"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =9600
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =18
+                    Name ="Communicator"
+                    ControlSource ="Communicator"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =10080
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =19
+                    BackColor =12632256
+                    Name ="Craftsman"
+                    ControlSource ="Craftsman"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =10560
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =20
+                    Name ="Engineer"
+                    ControlSource ="Engineer"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =11040
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =21
+                    BackColor =12632256
+                    Name ="FamilyMember"
+                    ControlSource ="FamilyMember"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =11520
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =22
+                    Name ="Fitness"
+                    ControlSource ="Fitness"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =12000
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =23
+                    BackColor =12632256
+                    Name ="Forester"
+                    ControlSource ="Forester"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =12480
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =24
+                    Name ="Geologist"
+                    ControlSource ="Geologist"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =12960
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =25
+                    BackColor =12632256
+                    Name ="Handyman"
+                    ControlSource ="Handyman"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =13440
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =26
+                    Name ="Naturalist"
+                    ControlSource ="Naturalist"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =13920
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =27
+                    BackColor =12632256
+                    Name ="Outdoorsman"
+                    ControlSource ="Outdoorsman"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =14400
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =28
+                    Name ="Readyman"
+                    ControlSource ="Readyman"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =14880
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =29
+                    BackColor =12632256
+                    Name ="Scholar"
+                    ControlSource ="Scholar"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =15360
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =30
+                    Name ="Scientist"
+                    ControlSource ="Scientist"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =15840
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =31
+                    BackColor =12632256
+                    Name ="Showman"
+                    ControlSource ="Showman"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =16320
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =32
+                    Name ="Sportsman"
+                    ControlSource ="Sportsman"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =16800
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =33
+                    BackColor =12632256
+                    Name ="Traveler"
+                    ControlSource ="Traveler"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =17280
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =34
+                    Name ="CompassEmblem"
+                    ControlSource ="CompassEmblem"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    BackStyle =1
+                    Left =17760
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =35
+                    BackColor =12632256
+                    Name ="Device"
+                    ControlSource ="Device"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =18240
+                    Top =60
+                    Width =479
+                    FontWeight =700
+                    TabIndex =36
+                    Name ="ServiceStar"
+                    ControlSource ="ServiceStar"
+                    Format ="mm/yy"
+                    FontName ="Arial Narrow"
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =516
+            Name ="PageFooter"
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =60
+                    Top =240
+                    Width =5040
+                    Height =276
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Text79"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    FontName ="Times New Roman"
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =3
+                    TextFontFamily =18
+                    Left =13680
+                    Top =240
+                    Width =5040
+                    Height =276
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Text80"
+                    ControlSource ="=\"Page \" & [Page] & \" of \" & [Pages]"
+                    FontName ="Times New Roman"
+
+                End
+                Begin Line
+                    BorderWidth =3
+                    Left =60
+                    Top =240
+                    Width =18660
+                    Height =12
+                    BorderColor =12632256
+                    Name ="Line82"
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="ReportFooter"
+        End
+    End
+End

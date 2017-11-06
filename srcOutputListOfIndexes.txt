@@ -1,0 +1,30 @@
+<<<[tbl818CubScoutAwards]>>>
+              Index:[CubID]
+                            Field Name:CubID
+>[CubID]      [CubID], 
+              Index:[PrimaryKey]
+                            Field Name:CubID
+>[PrimaryKey] [CubID], 
+              Index:[tblDenTypetbl818CubScoutAwards]
+                            Field Name:DenTypeID
+>[tblDenTypetbl818CubScoutAwards]         [DenTypeID], 
+========================================
+<<<[tblDenType]>>>
+              Index:[DenTypeID]
+                            Field Name:DenTypeID
+>[DenTypeID]  [DenTypeID], 
+              Index:[PrimaryKey]
+                            Field Name:DenTypeID
+>[PrimaryKey] [DenTypeID], 
+========================================
+<<<[tblParentsAndLeaders]>>>
+              Index:[ParentID]
+                            Field Name:ParentID
+>[ParentID]   [ParentID], 
+              Index:[PrimaryKey]
+                            Field Name:ParentID
+>[PrimaryKey] [ParentID], 
+              Index:[ZipCode]
+                            Field Name:ZipCode
+>[ZipCode]    [ZipCode], 
+========================================

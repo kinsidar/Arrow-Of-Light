@@ -1,0 +1,450 @@
+|-- Name >> tblParentsAndLeaders
+|-- Updatable >> True
+|-- DateCreated >> DateCreated
+|-- LastUpdated >> LastUpdated
+|-- Connect >> 
+|-- Attributes >> 0
+|-- SourceTableName >> 
+|-- RecordCount >> 9
+|-- ValidationRule >> 
+|-- ValidationText >> 
+|-- Orientation >> 0
+|-- OrderByOn >> False
+|-- DefaultView >> 2
+--------------------------------------------------
+|-- ParentID (Field in tblParentsAndLeaders)
+|------ Attributes >> 17
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> ParentID
+|------ OrdinalPosition >> 0
+|------ Size >> 4
+|------ SourceField >> ParentID
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|-- ParentFirstName (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> ParentFirstName
+|------ OrdinalPosition >> 1
+|------ Size >> 50
+|------ SourceField >> ParentFirstName
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- ParentMiddleName (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> ParentMiddleName
+|------ OrdinalPosition >> 2
+|------ Size >> 50
+|------ SourceField >> ParentMiddleName
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- ParentLastName (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> ParentLastName
+|------ OrdinalPosition >> 3
+|------ Size >> 50
+|------ SourceField >> ParentLastName
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- Country (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> Country
+|------ OrdinalPosition >> 4
+|------ Size >> 50
+|------ SourceField >> Country
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- Address (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> Address
+|------ OrdinalPosition >> 5
+|------ Size >> 50
+|------ SourceField >> Address
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- City (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> City
+|------ OrdinalPosition >> 6
+|------ Size >> 50
+|------ SourceField >> City
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- State (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> State
+|------ OrdinalPosition >> 7
+|------ Size >> 50
+|------ SourceField >> State
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- ZipCode (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> ZipCode
+|------ OrdinalPosition >> 8
+|------ Size >> 50
+|------ SourceField >> ZipCode
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- HomePhone (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> HomePhone
+|------ OrdinalPosition >> 9
+|------ Size >> 50
+|------ SourceField >> HomePhone
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- DateOfBirth (Field in tblParentsAndLeaders)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> DateOfBirth
+|------ OrdinalPosition >> 10
+|------ Size >> 8
+|------ SourceField >> DateOfBirth
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ Format >> Short Date
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ InputMask >> 99/99/0000;0;_
+|-- Occupation (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> Occupation
+|------ OrdinalPosition >> 11
+|------ Size >> 50
+|------ SourceField >> Occupation
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- Employer (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> Employer
+|------ OrdinalPosition >> 12
+|------ Size >> 50
+|------ SourceField >> Employer
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- BusinessPhone (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> BusinessPhone
+|------ OrdinalPosition >> 13
+|------ Size >> 50
+|------ SourceField >> BusinessPhone
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- PreviousScoutExp (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> PreviousScoutExp
+|------ OrdinalPosition >> 14
+|------ Size >> 255
+|------ SourceField >> PreviousScoutExp
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- Gender (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> Gender
+|------ OrdinalPosition >> 15
+|------ Size >> 50
+|------ SourceField >> Gender
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 111
+|------ RowSourceType >> Value List
+|------ RowSource >> M;F
+|------ BoundColumn >> 1
+|------ ColumnCount >> 1
+|------ ColumnHeads >> False
+|------ ListRows >> 8
+|------ ListWidth >> 0twip
+|------ LimitToList >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- Email (Field in tblParentsAndLeaders)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> Email
+|------ OrdinalPosition >> 16
+|------ Size >> 50
+|------ SourceField >> Email
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|-- ApplicationDate (Field in tblParentsAndLeaders)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> ApplicationDate
+|------ OrdinalPosition >> 17
+|------ Size >> 8
+|------ SourceField >> ApplicationDate
+|------ SourceTable >> tblParentsAndLeaders
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ Format >> Short Date
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ InputMask >> 99/99/0000;0;_

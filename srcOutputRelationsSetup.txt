@@ -1,0 +1,10 @@
+Name: tbl818CubScoutAwardstblPayments
+  Table: tbl818CubScoutAwards
+  Foreign Table: zzztblPayments
+  PK: CubID   FK:CubID
+
+Name: tblDenTypetbl818CubScoutAwards
+  Table: tblDenType
+  Foreign Table: tbl818CubScoutAwards
+  PK: DenTypeID   FK:DenTypeID
+

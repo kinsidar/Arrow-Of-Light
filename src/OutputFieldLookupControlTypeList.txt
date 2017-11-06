@@ -1,0 +1,83 @@
+[tbl818CubScoutAwards]
+              [CubID]        0            
+              [Active]       106          CheckBox
+              [DenYear]      109          TextBox
+              [DenNbr]       109          TextBox
+              [DenTypeID]    111          ComboBox
+              [CubLastName]  109          TextBox
+              [CubMiddleName]              109          TextBox
+              [CubFirstName]               109          TextBox
+              [DateOfBirth]  109          TextBox
+              [School]       109          TextBox
+              [Bobcat]       109          TextBox
+              [Wolf]         109          TextBox
+              [Bear]         109          TextBox
+              [WebelosBadge]               109          TextBox
+              [ArrowOfLight]               109          TextBox
+              [GoldWolfDate]               109          TextBox
+              [SilverWolfCount]            109          TextBox
+              [GoldBearDate]               109          TextBox
+              [SilverBearCount]            109          TextBox
+              [Aquanaut]     109          TextBox
+              [Artist]       109          TextBox
+              [Athlete]      109          TextBox
+              [Citizen]      109          TextBox
+              [Communicator]               109          TextBox
+              [Craftsman]    109          TextBox
+              [Engineer]     109          TextBox
+              [FamilyMember]               109          TextBox
+              [Fitness]      109          TextBox
+              [Forester]     109          TextBox
+              [Geologist]    109          TextBox
+              [Handyman]     109          TextBox
+              [Naturalist]   109          TextBox
+              [Outdoorsman]  109          TextBox
+              [Readyman]     109          TextBox
+              [Scholar]      109          TextBox
+              [Scientist]    109          TextBox
+              [Showman]      109          TextBox
+              [Sportsman]    109          TextBox
+              [Traveler]     109          TextBox
+              [CompassEmblem]              109          TextBox
+              [CompassPoints]              109          TextBox
+              [Device]       109          TextBox
+              [ServiceStar]  109          TextBox
+              [Archery]      109          TextBox
+              [BBGuns]       109          TextBox
+              [Communicating]              109          TextBox
+              [Swimming]     109          TextBox
+              [TroopVisit1]  109          TextBox
+              [TroopVisit2]  109          TextBox
+              [TroopVisit3]  109          TextBox
+              [Field59]      109          TextBox
+              [Field60]      109          TextBox
+[tblDenType]
+              [DenTypeID]    109          TextBox
+              [DenType]      109          TextBox
+              [DenTypeDescription]         109          TextBox
+[tblParentsAndLeaders]
+              [ParentID]     109          TextBox
+              [ParentFirstName]            109          TextBox
+              [ParentMiddleName]           109          TextBox
+              [ParentLastName]             109          TextBox
+              [Country]      109          TextBox
+              [Address]      109          TextBox
+              [City]         109          TextBox
+              [State]        109          TextBox
+              [ZipCode]      109          TextBox
+              [HomePhone]    109          TextBox
+              [DateOfBirth]  109          TextBox
+              [Occupation]   109          TextBox
+              [Employer]     109          TextBox
+              [BusinessPhone]              109          TextBox
+              [PreviousScoutExp]           109          TextBox
+              [Gender]       111          ComboBox
+              [Email]        109          TextBox
+              [ApplicationDate]            109          TextBox
+Count of Check box = 1
+Count of Text box  = 69
+Count of List box  = 0
+Count of Combo box = 2
+Count of Else      = 1
+Count of Display Controls = 72
+Count of All Fields = 72

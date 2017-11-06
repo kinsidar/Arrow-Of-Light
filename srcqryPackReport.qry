@@ -1,0 +1,100 @@
+Operation =1
+Option =0
+Where ="(((tbl818CubScoutAwards.Active)=True))"
+Begin InputTables
+    Name ="tbl818CubScoutAwards"
+    Name ="tblDenType"
+End
+Begin OutputColumns
+    Expression ="tbl818CubScoutAwards.CubID"
+    Expression ="tbl818CubScoutAwards.Active"
+    Expression ="tbl818CubScoutAwards.DenYear"
+    Expression ="tbl818CubScoutAwards.DenNbr"
+    Expression ="tblDenType.DenType"
+    Expression ="tbl818CubScoutAwards.CubFirstName"
+    Expression ="tbl818CubScoutAwards.CubLastName"
+    Expression ="tbl818CubScoutAwards.Bobcat"
+    Expression ="tbl818CubScoutAwards.Wolf"
+    Expression ="tbl818CubScoutAwards.Bear"
+    Expression ="tbl818CubScoutAwards.WebelosBadge"
+    Expression ="tbl818CubScoutAwards.ArrowOfLight"
+    Expression ="tbl818CubScoutAwards.GoldWolfDate"
+    Expression ="tbl818CubScoutAwards.SilverWolfCount"
+    Expression ="tbl818CubScoutAwards.GoldBearDate"
+    Expression ="tbl818CubScoutAwards.SilverBearCount"
+    Expression ="tbl818CubScoutAwards.Aquanaut"
+    Expression ="tbl818CubScoutAwards.Artist"
+    Expression ="tbl818CubScoutAwards.Athlete"
+    Expression ="tbl818CubScoutAwards.Citizen"
+    Expression ="tbl818CubScoutAwards.Communicator"
+    Expression ="tbl818CubScoutAwards.Craftsman"
+    Expression ="tbl818CubScoutAwards.Engineer"
+    Expression ="tbl818CubScoutAwards.FamilyMember"
+    Expression ="tbl818CubScoutAwards.Fitness"
+    Expression ="tbl818CubScoutAwards.Forester"
+    Expression ="tbl818CubScoutAwards.Geologist"
+    Expression ="tbl818CubScoutAwards.Handyman"
+    Expression ="tbl818CubScoutAwards.Naturalist"
+    Expression ="tbl818CubScoutAwards.Outdoorsman"
+    Expression ="tbl818CubScoutAwards.Readyman"
+    Expression ="tbl818CubScoutAwards.Scholar"
+    Expression ="tbl818CubScoutAwards.Scientist"
+    Expression ="tbl818CubScoutAwards.Showman"
+    Expression ="tbl818CubScoutAwards.Sportsman"
+    Expression ="tbl818CubScoutAwards.Traveler"
+    Expression ="tbl818CubScoutAwards.CompassEmblem"
+    Expression ="tbl818CubScoutAwards.Device"
+    Expression ="tbl818CubScoutAwards.ServiceStar"
+End
+Begin Joins
+    LeftTable ="tblDenType"
+    RightTable ="tbl818CubScoutAwards"
+    Expression ="tblDenType.DenTypeID = tbl818CubScoutAwards.DenTypeID"
+    Flag =1
+End
+Begin OrderBy
+    Expression ="tblDenType.DenType"
+    Flag =0
+    Expression ="tbl818CubScoutAwards.CubFirstName"
+    Flag =0
+    Expression ="tbl818CubScoutAwards.CubLastName"
+    Flag =0
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+Begin
+End
+Begin
+    State =0
+    Left =66
+    Top =78
+    Right =1002
+    Bottom =442
+    Left =-1
+    Top =-1
+    Right =929
+    Bottom =180
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =48
+        Top =7
+        Right =168
+        Bottom =157
+        Top =36
+        Name ="tbl818CubScoutAwards"
+        Name =""
+    End
+    Begin
+        Left =216
+        Top =7
+        Right =336
+        Bottom =119
+        Top =0
+        Name ="tblDenType"
+        Name =""
+    End
+End

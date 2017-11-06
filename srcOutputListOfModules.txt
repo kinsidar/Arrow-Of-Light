@@ -1,0 +1,5 @@
+[818_Scouts_expClass]       False
+[aebasChangeLog_aegit_expClass]           False
+[aebasTEST_aegit_expClass]  False
+[aegit_expClass]            False
+[basStartup]  False

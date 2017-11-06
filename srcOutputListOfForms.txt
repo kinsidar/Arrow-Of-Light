@@ -1,0 +1,2 @@
+[frmTbl818CubScoutAwards]   False
+[fsfrTbl818CubScoutAwards]  True

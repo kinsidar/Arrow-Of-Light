@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="zzztblPayments" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="zzztblPayments">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <od:index index-name="CubID" index-key="CubID " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PaymentID" index-key="PaymentID " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PrimaryKey" index-key="PaymentID " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
+        <od:index index-name="tbl818CubScoutAwardstblPayments" index-key="CubID " primary="no" unique="no" clustered="no" order="asc"></od:index>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="PaymentID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
+        <xsd:element name="CubID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="Date" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Amount" minOccurs="0" od:jetType="currency" od:sqlSType="money" type="xsd:double"></xsd:element>
+        <xsd:element name="BoysLife" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean"></xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
+
