@@ -26,7 +26,7 @@ AllowSpecialKeys: True, 1, False;
 Track Name AutoCorrect Info: 0, 4, False;
 Perform Name AutoCorrect: 0, 4, False;
 CpgConversion: 1252, 4, False;
-ProjVer: 140, 3, False;
+ProjVer: 141, 3, False;
 Auto Compact: 0, 4, False;
 Show Values in Snapshot: 1, 4, False;
 Show Values in Server: 0, 4, False;

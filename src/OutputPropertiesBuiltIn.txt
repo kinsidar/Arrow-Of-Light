@@ -140,7 +140,7 @@ Inherited: False;
 ---
 Name: ProjVer
 Type: dbInteger
-Value: 140
+Value: 141
 Inherited: False;
 ---
 Name: Auto Compact

@@ -112,9 +112,9 @@ End Sub
 Public Sub Scout_818_EXPORT(Optional ByVal varDebug As Variant)
 
     Dim THE_SOURCE_FOLDER As String
-    THE_SOURCE_FOLDER = "C:\Users\kinsi\version-control\Arrow-Of-Light\src"
+    THE_SOURCE_FOLDER = "C:\Users\kinsi\version-control\Arrow-Of-Light\src\"
     Dim THE_XML_FOLDER As String
-    THE_XML_FOLDER = "C:\Users\kinsi\version-control\Arrow-Of-Light\src\xml"
+    THE_XML_FOLDER = "C:\Users\kinsi\version-control\Arrow-Of-Light\src\xml\"
     Dim THE_XML_DATA_FOLDER As String
     THE_XML_DATA_FOLDER = "C:\Users\kinsi\version-control\Arrow-Of-Light\src\xmldata"
 
